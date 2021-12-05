@@ -193,7 +193,7 @@ header {
   border: 0;
   cursor: pointer;
   position: absolute;
-  right: 1em;
+  left: 1em;
   top: 1em;
   z-index: 1000;
 }
@@ -431,6 +431,7 @@ header {
 
 .footer__link {
   font-weight: var(--fw-bold);
+  color: var(--clr-accent);
 }
 
 .footer__link:hover,
@@ -448,12 +449,17 @@ header {
   justify-content: center;
   margin: 2em 0 0;
   padding: 0;
+  color: var(--clr-accent);
 }
 
 .social-list__item {
   margin: 0 0.5em;
+  color: var(--clr-accent);
+  z-index: 100;
 }
 
 .social-list__link {
   padding: 0.5em;
+  color: var(--clr-accent);
+  z-index: 100;
 }
